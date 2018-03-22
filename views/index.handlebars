@@ -1,0 +1,27 @@
+<head>
+     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     -->
+</head>
+<div class="card card-body text-center">
+
+<h2>Entered Details Are:</h2>
+</div>
+{{#each ideas}}
+     <div class="card card-body text-center text-danger"><b>
+          
+          <h4>{{fullname}}</h4>
+          
+          <h5>{{email}}</h5>
+          
+          <h5>{{message}}</h5>
+          
+          
+          </b>
+     </div>
+{{else}}
+     <p>No data found</p>
+{{/each}}
+<br>
+<br>
+<h2 class="text text-center">Soon You Will Be Contacted ! </h2>

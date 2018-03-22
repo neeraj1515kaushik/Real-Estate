@@ -1,0 +1,34 @@
+<!--
+     If a file is in users named login.handlebars then app.js has no access to it. For it to being accessed this should be linked
+     to a js file which is linked to another js file(Main app.js file) 
+     -->
+<head>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     
+</head>
+<div class= "container-fluid">
+	<div class="container">
+      		<div  style="padding-top:50px ">
+				<h3 class="text-right"><a href = "/users/register"> Register </a></h3>
+			</div>
+      </div>
+</div>
+<div class="row" style = "padding-top:100px">
+     <div class="col-xs-6 mx-auto">
+          <div class="card card-body">
+               <h3 class="text-center">Account Login</h3>
+               <form>
+                    <div class="form-group">
+                         <label for="email">EMAIL</label>
+                         <input type="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                         <label for="password">PASSWORD</label>
+                         <input type="password" name="password" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+               </form>
+          </div>
+     </div>
+</div>

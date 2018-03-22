@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/realestate.css">
+     
+     <title>Real Estate</title>
+</head>
+<style>
+    .text{
+    text-align: center;}
+  
+  .dist1{
+  padding-top:20px;}
+  .img{
+    opacity: 0.1;
+    filter: alpha(opacity=50);}
+  .block{
+    background-color:blue;
+    height:150px;}
+  .background{
+    background: url(N:\visual2.jpg) repeat;
+    height: 790px;}
+  .rectangle{
+    width:100%;
+    height: 350px;}
+  #blue-color{
+    background-color: #323270;} 
+    .rectangle2{
+    width:100%;
+    height: 370px;
+    padding:0px;
+    margin:0px}
+    .skyblue-color{
+      background-color: #5D5D92;
+    }
+    footer{
+      padding: 3em;
+      text-decoration-color: white;
+      background-color: #D3CECE;
+    } 
+    .fa {
+      padding: 10px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+    .fa:hover {
+      opacity: 0.7;
+    }
+    
+    .icon{
+      height: 100px;
+      width:100px;
+    }
+    .parallax {
+      position: relative;
+      opacity: 0.7;
+    /* The image used */
+      background-image: url("/img/2.jpg");
+
+    /* Set a specific height */
+      min-height: 500px; 
+      
+
+    /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat; /*can be used to parallax more than one images */
+      background-size: cover;/*to cover thw whole window*/
+    }
+    
+    .caption {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: #000;
+    }
+
+    .caption span.border {
+      background-color: #111;
+      color: #fff;
+      padding: 18px;
+      font-size: 25px;
+      letter-spacing: 10px;
+    }
+    .img1{
+      position:absolute;
+      top:1930px;
+      left: 280px;
+      height:330px; 
+      width: 302px;
+
+    }
+    .img2{
+      position:absolute;
+      top:2320px;
+      left: 850px;
+      height:350px; 
+      width: 302px;
+
+    }
+    table, th, td {
+    		border: 1px solid black;
+    		border-collapse: collapse;
+		padding: 25px;
+		top-padding:30px;
+	}
+  
+</style>
+<body>
+     {{> _navbar}}
+      {{> _errors}}
+     
+     {{{body}}}
+     
+
+     {{> _footer}}
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
